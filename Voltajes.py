@@ -12,3 +12,4 @@ for i in Vingreso:
         Vmenor.append(i)
 print(f"Los valores mayores son:{Vmayor}")
 print(f"Los valores menores son:{Vmenor}")
+print("Olaaaaa")
