@@ -1,0 +1,36 @@
+# mediciones_basico.txt
+# Voltajes del sensor (V) — archivo básico para practicar lectura con `with open`
+# Incluye: líneas de comentario, líneas en blanco, y un par de valores con coma decimal.
+4.933
+4.974
+4.969
+5.004
+5.135
+
+5.000
+4.983
+4.992
+4.988
+5,009
+5.015
+# Comentario: a partir de aquí continua el mismo patrón
+4.859
+5.013
+5.009
+5.059
+5.010
+5.006
+
+4.968
+5.029
+5.073
+5.118
+4,986
+4.927
+4.914
+4.933
+5.087
+4.948
+4.964
+5.010
+5.036

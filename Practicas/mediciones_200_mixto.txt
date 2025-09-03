@@ -1,0 +1,224 @@
+# Archivo de mediciones de voltaje (V)
+! Generado para práctica de parsing (comentarios con # y !)
+# Una medición por línea; también hay líneas en blanco y comentarios.
+
+4,919
+4,969
+  4,980  
+4.991
+5,015
+5.011
+5.035
+5.087
+4.919
+5,105
+5.103
+5.021
+4.981
+5,108
+5.020
+4.937
+4.914
+4,947
+4,971
+4,979
+4,976
+4,958
+4.989
+4.917
+4,959
+# Comentario: bloque intermedio de datos
+
+! Sugerencia: recuerda reemplazar ',' por '.' antes de convertir
+5.037
+5,011
+5.039
+5.000
+5,009
+4,959
+4,912
+4.998
+4.966
+5,063
+5.034
+4,964
+4,929
+4,943
+4,994
+4.975
+5,067
+5.028
+4,850
+4,950
+  5.085  
+  5.023  
+5.051
+5.066
+5,063
+# Comentario: bloque intermedio de datos
+
+! Sugerencia: recuerda reemplazar ',' por '.' antes de convertir
+5,007
+5.019
+4.995
+5.052
+5.012
+5.004
+5.074
+5.100
+4,989
+5,015
+5,119
+4.927
+  4.970  
+5.049
+4,950
+  5.013  
+  4.963  
+4.963
+4,971
+5,083
+  4,973  
+5.049
+5,069
+5,012
+  5.062  
+# Comentario: bloque intermedio de datos
+
+! Sugerencia: recuerda reemplazar ',' por '.' antes de convertir
+4.995
+4,936
+5.036
+4,890
+  4,990  
+  4,996  
+5,012
+5.160
+5,015
+  5.006  
+4,917
+5,034
+4,995
+4,963
+5.088
+5,014
+5.073
+5.062
+4.983
+5,018
+4,993
+5,020
+5,068
+4,986
+  5.028  
+# Comentario: bloque intermedio de datos
+
+! Sugerencia: recuerda reemplazar ',' por '.' antes de convertir
+4.958
+5.068
+4.952
+  4,885  
+4,864
+4.986
+5,064
+5.070
+  4.962  
+4,988
+5,097
+  4.981  
+5.046
+4,975
+4,979
+5.099
+5.016
+  5,006  
+  5,000  
+4,920
+4.986
+5,015
+4.954
+5.018
+5,001
+# Comentario: bloque intermedio de datos
+! Sugerencia: recuerda reemplazar ',' por '.' antes de convertir
+  5.040  
+  4.968  
+4,960
+  5,065  
+4.917
+  4,932  
+4.987
+4,973
+4.988
+5,025
+  4.965  
+4,971
+5.017
+5,078
+4,962
+  5,051  
+4,944
+4.991
+4,986
+5,055
+4.961
+5,030
+5,034
+5.060
+4.995
+# Comentario: bloque intermedio de datos
+
+! Sugerencia: recuerda reemplazar ',' por '.' antes de convertir
+4.956
+4,994
+4.862
+5,025
+4,920
+5,025
+5,048
+5.019
+4.947
+4,987
+5.039
+5,030
+5,035
+4.985
+4,910
+4,914
+5.069
+5.074
+  5.032  
+  5,117  
+  4.987  
+5,028
+5,026
+5,058
+5.056
+# Comentario: bloque intermedio de datos
+
+! Sugerencia: recuerda reemplazar ',' por '.' antes de convertir
+5,009
+5.074
+5,078
+4.995
+5,030
+5,003
+5,020
+4,956
+  5.069  
+4.984
+  5,000  
+5.044
+5.093
+5,101
+  4,889  
+5,062
+4.921
+  5.026  
+5.000
+4.959
+5,047
+4.994
+5,001
+5,039
+  4.994  
