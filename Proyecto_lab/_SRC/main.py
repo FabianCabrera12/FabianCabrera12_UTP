@@ -27,7 +27,7 @@ with open (IN_FILE,"r", encoding="utf-8", newline="") as black, \
     open (OUT_FILE,"w", encoding="utf-8", newline="") as white:  
 
     reader=csv.DictReader(black, delimiter=";") 
-    writer=csv.DictWriter(white, fieldnames=["tiempo", "voltajes", "alerta"]) #creamos las columnas del archivo de salida
+    writer=csv.DictWriter(white, fieldnames=["tiempo", "voltajes", "alerta"], delimiter=",") #creamos las columnas del archivo de salida
     writer.writeheader() #escribimos el encabezado en el archivo de salida
 
     for row in reader:
@@ -94,7 +94,7 @@ kpis = {
 
 # Indicadores en CSV (KPI;Valor) y también impresión en consola
 with open(KPIS_FILE, "w", encoding="utf-8", newline="") as f:
-    w = csv.writer(f, delimiter=";")
+    w = csv.writer(f, delimiter=",")
     w.writerow(["KPI", "Valor"])
     for k, v in kpis.items():
         w.writerow([k, v])
