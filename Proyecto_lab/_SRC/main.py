@@ -27,7 +27,7 @@ with open (IN_FILE,"r", encoding="utf-8", newline="") as black, \
     open (OUT_FILE,"w", encoding="utf-8", newline="") as white:  
 
     reader=csv.DictReader(black, delimiter=";") 
-    writer=csv.DictWriter(white, fieldnames=["tiempo", "voltajes", "alerta"], delimiter=";") #creamos las columnas del archivo de salida
+    writer=csv.DictWriter(white, fieldnames=["tiempo", "voltajes", "alerta"]) #creamos las columnas del archivo de salida
     writer.writeheader() #escribimos el encabezado en el archivo de salida
 
     for row in reader:
@@ -54,7 +54,7 @@ with open (IN_FILE,"r", encoding="utf-8", newline="") as black, \
             continue # salta si fila no es un numero 
 
         good_time = None
-        for fmt in ("%Y-%m-%dT%H:%M:%S", "%d/%m/%Y %H:%M:%S", "%Y-%m-%d %H:%M:%S"): #se crean dos formatos de fecha
+        for fmt in ("%Y-%m-%dT%H:%M:%S", "%d/%m/%Y %H:%M:%S", "%Y-%m-%d %H:%M:%S"): #posibles formatos de fecha
             try:
                 dt = datetime.strptime(temps_raw, fmt) #se intenta convertir el valor de tiempo al formato de fecha
                 good_time = dt.strftime("%Y-%m-%d %H:%M:%S") #si se logra convertir se guarda en la variable good_time
